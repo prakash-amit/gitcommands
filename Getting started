@@ -1,0 +1,11 @@
+git config --list 
+    lists all the current configurations
+
+git config <key>
+    gives value of key config eg. git config user.name
+
+git config --global <key> <value>
+    sets value of key in global config
+
+cofig can be stored at three levels - system, global, current git repository
+eg: git config --system user.name, git config --global user.name, git config user.name gives user names in system, global and local repo respectively
